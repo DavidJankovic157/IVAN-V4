@@ -1,0 +1,198 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+html{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+
+
+
+
+nav{
+    background-color: rgba(0,0,0,0.2);
+    padding-bottom: 0%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
+}
+
+
+#particles-js{
+    width: 100%;
+    height: 100%;
+  
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    }
+
+
+
+body{
+    background-color: #631B0B;
+    background-image: url(My\ project.png);
+    
+}
+
+.parallax-container {
+    height: 250px;
+  }
+
+
+
+.page-footer{
+    background-color: rgba(0,0,0,0.7);  
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+}
+
+#textovi{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 590;
+    color: #ffffff;
+}
+#naslov{
+    color:#ffffff;
+}
+#news{
+
+    height:1850px
+}
+
+.carousel{
+
+    height:1850px;
+}
+
+#clanovi{
+
+    background-color: rgba(0,0,0,0.7);
+    height:1850px;
+
+}
+
+#headshots{
+    height: 120px;
+    width: 90px;
+
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+#ik{
+    color:#ffffff;
+}
+
+#land_page_text{
+    position:absolute;
+    top: 40%;
+    left: 40%;
+    font-family: 'Bebas Neue', cursive;
+    color:#ffffff;
+
+
+}
+
+#land_page_slogan{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color:#ffffff;
+
+
+}
+
+#ulet{
+    animation:codeTopic ;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes codeTopic {
+    0%{top: -50px;}
+    100%{ top:35px;}
+    
+}
+
+#plan_lista{
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 590;
+    color: #ffffff;
+}
+
+
+#news{
+max-height: 400px;
+}
+
+#pozadina{
+    background-color: rgba(0,0,0,0.2);
+    color:White;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
+    
+}
+
+#qia{
+    border-top-style:hidden;
+    border-left-style:hidden;
+    border-right-style:hidden ;
+    
+}
+
+.card{
+    background-color: rgba(0,0,0,0.2);
+}
+
+h4{
+    font-family: 'Bebas Neue', cursive;
+    color:#ffffff;
+    text-align: center;
+}
+h5{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color:#ffffff;
+  
+}
+
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: lightgrey;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .disppear{
+    animation: vanish 1s forwards;
+    }
+    @keyframes vanish {
+    100%{
+    opacity: 0;
+    visibility: hidden;
+    }
+    }
+
+#team_info2{
+    padding-top: 100px;
+}
+
